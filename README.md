@@ -22,7 +22,7 @@ The script calculates the optimal strategy for Alice, determining whether she sh
 
 In most cases, there seems to be a value for 'b' (around 30%) over which it is a better strategy for Alice to withhold her shots and wait for Bob and Charlie to eliminate each other. This phenomenon is depicted in the generated plots, where regions of blue indicate scenarios where Alice's optimal strategy is to wait, while regions of red suggest it's better for her to shoot.
 
-![Plot of the expected outcome depending on the strategy for c fix at 90%](output\fixingC\0.90.png)
+![Plot of the expected outcome depending on the strategy for c fix at 90%](output/fixingC/0.90.png)
 
 
 ## Usage
@@ -50,9 +50,9 @@ In most cases, there seems to be a value for 'b' (around 30%) over which it is a
 
 Simply execute the Python script:
 
-    ```bash
-    python main.py
-    ```
+```bash
+python main.py
+```
 
 The script will generate a series of plots depicting the optimal strategy for Alice under different scenarios, varying the probabilities 'a', 'b', and 'c'.
 
